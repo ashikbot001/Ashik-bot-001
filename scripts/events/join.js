@@ -68,9 +68,7 @@ AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR
 
 ADMIN :MD JUBAED AHMED JOY 
 
-🟣Facebook Account Link: 
-
-https://www.facebook.com/mdjubaet.ahmed.9
+🟣Facebook Account Link: https://www.facebook.com/mdjubaedahmedjoy?mibextid=ZbWKwL
 
 🔵WHATSAPP NUMBER: wa.me/+8801709045888
 
