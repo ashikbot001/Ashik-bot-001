@@ -12,10 +12,10 @@ module.exports.config = {
 
 module.exports.languages = {
     "vi": {
-        "listAdmin": 'Danh sách toàn bộ người điều hành bot: \n\n%1',
-        "notHavePermssion": 'Bạn không đủ quyền hạn để có thể sử dụng chức năng "%1"',
-        "addedNewAdmin": 'Đã thêm %1 người dùng trở thành người điều hành bot:\n\n%2',
-        "removedAdmin": 'Đã gỡ bỏ %1 người điều hành bot:\n\n%2'
+        "listAdmin": 'Danh sÃ¡ch toÃ n bá»™ ngÆ°á»i Ä‘iá»u hÃ nh bot: \n\n%1',
+        "notHavePermssion": 'Báº¡n khÃ´ng Ä‘á»§ quyá»n háº¡n Ä‘á»ƒ cÃ³ thá»ƒ sá»­ dá»¥ng chá»©c nÄƒng "%1"',
+        "addedNewAdmin": 'ÄÃ£ thÃªm %1 ngÆ°á»i dÃ¹ng trá»Ÿ thÃ nh ngÆ°á»i Ä‘iá»u hÃ nh bot:\n\n%2',
+        "removedAdmin": 'ÄÃ£ gá»¡ bá» %1 ngÆ°á»i Ä‘iá»u hÃ nh bot:\n\n%2'
     },
     "en": {
         "listAdmin": 'approved list : \n\n%1',
@@ -62,7 +62,7 @@ module.exports.run = async function ({ api, event, args, Threads, Users, permssi
         }
 
         case "box": {
-            if (permssion != 3) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
+            if (permssion != 2) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
           
 
           
@@ -104,7 +104,7 @@ module.exports.run = async function ({ api, event, args, Threads, Users, permssi
         case "remove":
         case "rm":
         case "delete": {
-            if (permssion != 3) return api.sendMessage(getText("notHavePermssion", "delete"), threadID, messageID);
+            if (permssion != 2) return api.sendMessage(getText("notHavePermssion", "delete"), threadID, messageID);
             if (mentions.length != 0 && isNaN(content[0])) {
                 const mention = Object.keys(mentions);
                 var listAdd = [];
