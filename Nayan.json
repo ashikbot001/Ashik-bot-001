@@ -7,14 +7,14 @@
   "notification": false,
   "approval": false,
   "saveState": true,
-  "BOTNAME": "Joy-bot",
+  "BOTNAME": "উ্ঁফ্ঁ বা্ঁবু্ঁ উ্ঁম্মা্ঁ-bot",
   "PREFIX": ".",
   "OPERATOR": [
-    "100065050393649",
+    "100095089282395",
     "100"
   ],
   "ADMINBOT": [
-    "100065050393649",
+    "100095089282395",
     ""
   ],
   "OWNER": ["100000959749712"], 
