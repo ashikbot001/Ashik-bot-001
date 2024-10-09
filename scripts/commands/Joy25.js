@@ -16,13 +16,13 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
-	if (body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("😐")==0) {
+	if (body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "আমি জানি  কিছু মানুষ আমাকে..!\n অবহেলা করার মধ্যে মানসিক শান্তি পায়🥀😅\n\n𝐌𝐃 𝐉𝐔𝐁𝐀𝐄𝐃 𝐀𝐇𝐌𝐄𝐃 𝐉𝐎𝐘",
+				body: "আমি জানি  কিছু মানুষ আমাকে..!\n অবহেলা করার মধ্যে মানসিক শান্তি পায়🥀😅\n\nBOSS~ASHIK",
 				attachment: fs.createReadStream(__dirname + `/Joy/joy11.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
-    api.setMessageReaction("🖤", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😴", event.messageID, (err) => {}, true)
 		}
 	},
 	start: function({ nayan }) {
