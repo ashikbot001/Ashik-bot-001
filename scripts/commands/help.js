@@ -90,7 +90,7 @@ let path = __dirname + `/cache/help.png`;
 
 
     const text = `╰➤ 𝗧𝗢𝗧𝗔𝗟 𝗖𝗢𝗠𝗠𝗔𝗡𝗗 ${arrayInfo.length}\n𝗨𝗦𝗘【 ${prefix}Help 】𝐏𝐀𝐆𝐄 𝐍𝐎.\n╰➤ «𝐍𝐔𝐌𝐁𝐄𝐑 𝐎𝐅 𝐏𝐀𝐆𝐄» ${page}
-╰➤ 𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧: 𝐌𝐃 𝐉𝐔𝐁𝐀𝐄𝐃 𝐀𝐇𝐌𝐄𝐃 𝐉𝐎𝐘\n𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤:https://www.facebook.com/mdjubaedahmedjoy?mibextid=ZbWKwL\n𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩:wa.me/+8801709045888\n𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦:@mdjubaedahmed`;
+╰➤ 𝐁𝐨𝐭 𝐀𝐝𝐦𝐢𝐧: BOSS~ASHIK\n𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤:https://www.facebook.com/profile.php?id=100095089282395&mibextid=ZbWKwL\n𝐖𝐡𝐚𝐭𝐬𝐚𝐩𝐩:wa.me/+8801647711001\n𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦:লাগলে ইনবক্সে আসো😅`;
     return api.sendMessage(`╭──«~»──CMD──«~»──╮\n\nPAGE ${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)}` + "\n" + msg + "\n" + text, threadID, async (error, info) => {
       if (autoUnsend) {
         await new Promise(resolve => setTimeout(resolve, delayUnsend * 100000));
