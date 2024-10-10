@@ -43,5 +43,5 @@ var callback = () => api.sendMessage({body:`
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/profile.php?id=100095089282395&mibextid=ZbWKwL`,attachment: fs.createReadStream(__dirname + "/Joy/Snapchat-1613086535.jpg)}, event.threadID, () => 
     fs.unlinkSync(__dirname + ""));  
       return request(encodeURI(`https://graph.facebook.com/100065050393649/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
-fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
+fs.createWriteStream(__dirname+'/Joy/Messenger_creation_9825A13E-DF19-4A0E-A640-69629B148AF2.jpeg')).on('close',() => callback());
    };
