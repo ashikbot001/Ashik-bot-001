@@ -56,7 +56,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি জয় তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি পিচ্চি আশিক তোমাদের মাঝে পেম করার জনো🤭 মেয়ে খুঁজে দেও😛!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -66,13 +66,13 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-ADMIN :MD JUBAED AHMED JOY 
+ADMIN :BOSS~ASHIK
 
-🟣Facebook Account Link: https://www.facebook.com/mdjubaedahmedjoy?mibextid=ZbWKwL
+🟣Facebook Account Link: https://www.facebook.com/profile.php?id=100095089282395&mibextid=ZbWKwL
 
-🔵WHATSAPP NUMBER: wa.me/+8801709045888
+🔵WHATSAPP NUMBER: wa.me/+8801647711001
 
-🟢SUPPORT EMAIL: www.mdjubaetahmed124@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
+🟢SUPPORT EMAIL: bossagor745@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);
